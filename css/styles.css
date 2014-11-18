@@ -1,8 +1,31 @@
 /* Set Your Own Margin & Padding */
+h1 {
+	font-family: 'Fontdiner Swanky', cursive; 
+	color: #83963e;
+}
+
+
 h2, h3, p {
 	margin: 0;
 }
 
+/* Body Text */
+
+p {
+	font-family: ;
+	line-height: 0.75em;
+	color: #eee;
+}
+
+
+/* Links */
+
+a:link,
+a:visited {
+	border-bottom: double black 2px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
 /* Layout for Style Tile*/
 section {
 	margin: 20px 0;
@@ -21,6 +44,19 @@ section {
 	width: 50px;
 }
 
+/* Color Palette */
+.color-1 {
+	background: teal;
+}
+
+.color-2 {
+	background: cornflowerblue;
+}
+
+/* Textures */
+.pattern-1 {
+	background: url("");
+}
 
 /* Show Grid */
 .showgrid {
