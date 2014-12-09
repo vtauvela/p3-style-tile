@@ -113,13 +113,17 @@ section {
 
 /* Textures */
 .pattern-1 {
-	background-color: #998500;
-	background-image: url(http://www.transparenttextures.com/patterns/3px-tile.png);
+	background-image: url("../img/texture-1.jpg");
 }
 
 .pattern-2 {
-	background-image: url("../img/restaurant.png");
+	background-image: url("../img/texture-2.jpg");
 }
+
+.pattern-3 {
+	background-image: url("../img/texture-3.jpg");
+}
+
 /* Show Grid */
 .showgrid {
 	background: url("../img/grid-bg.png") repeat-y;
